@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_v1",
+  "version": "1.0.0",
+  "description": "nodeJS tutorial v1.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./expressJS/middleware.js"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "JavaScript",
+    "Express"
+  ],
+  "author": "Mr.uruc",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
